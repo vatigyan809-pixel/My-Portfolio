@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raunak Verma's personal developer portfolio">
+    <title>Raunak Verma | Portfolio</title>
+
+    <link rel="stylesheet" href="port.css">
+    <script src="port.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Raunak <span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle"
+                        type="button" aria-label="Switch to light mode">
+                    ☀️
+                </button>
+
+                <button class="menu-btn" id="menuBtn"
+                        type="button" aria-label="Open menu"
+                        aria-expanded="false">
+                    ☰
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content reveal">
+                <p class="hello">
+                    <span class="status-dot"></span>
+                    Hello, I'm
+                </p>
+
+                <h1>Raunak <span>Verma</span></h1>
+
+                <h2 class="hero-role">
+                    I'm a <span id="typingText"></span><span class="cursor">|</span>
+                </h2>
+
+                <p class="hero-description">
+                    B.Tech CSIT Student at GL Bajaj Institute of Technology
+                    &amp; Management. I am passionate about Web Development,
+                    Programming and DSA.
+                </p>
+
+                <div class="buttons">
+                    <a href="#projects" class="btn">View Projects ↗</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/vatigyan809-pixel"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/raunak-verma-663329392"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-card reveal">
+                       <div class="profile-logo">
+                        <img src="image.png" alt="My Photo">
+                                          </div>
+                <h3>CSIT Student</h3>
+                <p>Developer &amp; Programmer</p>
+
+                <div class="hero-tags">
+                    <span>Web Development</span>
+                    <span>Programming</span>
+                    <span>DSA</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-heading reveal">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p class="section-description">
+                    A little introduction about myself.
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <h3>Hi, I'm Raunak Verma 👋</h3>
+
+                    <p>
+                        I am a Computer Science and Information Technology
+                        student at GL Bajaj. I enjoy learning programming,
+                        developing websites and solving Data Structures
+                        and Algorithms problems.
+                    </p>
+
+                    <p>
+                        My current technical interests include Web Development,
+                        Python, C Programming and Data Structures &amp; Algorithms.
+                    </p>
+
+                    <a href="#contact" class="text-link">Let's connect →</a>
+                </div>
+
+                <div class="education-card reveal">
+                    <div class="education-icon">🎓</div>
+                    <p class="section-label">EDUCATION</p>
+                    <h3>GL Bajaj Institute of Technology &amp; Management</h3>
+                    <p>B.Tech - Computer Science &amp; Information Technology</p>
+                    <span class="education-badge">B.Tech Student</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section alternate-section">
+            <div class="section-heading reveal">
+                <p class="section-label">WHAT I AM LEARNING</p>
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <p class="section-description">
+                    Technologies and concepts I practice.
+                </p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Building structured and semantic web pages.</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Creating responsive and attractive websites.</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction and dynamic functionality.</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Programming, problem solving and scripting.</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">💻</div>
+                    <h3>C Language</h3>
+                    <p>Programming fundamentals and problem solving.</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🧠</div>
+                    <h3>DSA with C</h3>
+                    <p>Data structures, algorithms and problem solving.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-heading reveal">
+                <p class="section-label">MY WORK</p>
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <p class="section-description">
+                    Projects and programming practice.
+                </p>
+            </div>
+
+            <div class="project-filters reveal">
+                <button class="filter-btn active" type="button"
+                        data-filter="all" aria-pressed="true">All</button>
+
+                <button class="filter-btn" type="button"
+                        data-filter="web" aria-pressed="false">
+                    Web Development
+                </button>
+
+                <button class="filter-btn" type="button"
+                        data-filter="programming" aria-pressed="false">
+                    Programming
+                </button>
+            </div>
+
+            <div class="projects-container">
+
+                <article class="project-card reveal" data-category="web">
+                    <div class="project-top">
+                        <span class="project-emoji">🌐</span>
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A responsive personal portfolio website created using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#home" class="project-link">Live Demo ↗</a>
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer" class="project-link">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="programming">
+                    <div class="project-top">
+                        <span class="project-emoji">🧠</span>
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <h3>DSA Programs</h3>
+                    <p>
+                        A collection of Data Structures and Algorithms
+                        programs implemented using C language.
+                    </p>
+
+                    <div class="tech">
+                        <span>C</span>
+                        <span>DSA</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#projects" class="project-link">View Project ↗</a>
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer" class="project-link">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="programming">
+                    <div class="project-top">
+                        <span class="project-emoji">🐍</span>
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <h3>Python Projects</h3>
+                    <p>
+                        Beginner-friendly Python programs and problem-solving
+                        projects.
+                    </p>
+
+                    <div class="tech">
+                        <span>Python</span>
+                        <span>Programming</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#projects" class="project-link">View Project ↗</a>
+                        <a href="https://github.com/vatigyan809-pixel" target="_blank"
+                           rel="noopener noreferrer" class="project-link">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section alternate-section">
+            <div class="section-heading reveal">
+                <p class="section-label">GET IN TOUCH</p>
+                <h2 class="section-title">Contact <span>Me</span></h2>
+                <p class="section-description">
+                    Feel free to contact me about projects or internships.
+                </p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info reveal">
+                    <h3>Let's Connect</h3>
+
+                    <p>
+                        If you want to discuss a project, collaboration or
+                        internship opportunity, feel free to contact me.
+                    </p>
+
+                    <a class="contact-item"
+                       href="mailto:vatigyan809@gmail.com">
+                        <span>📧</span>
+                        <span>
+                            <strong>Email</strong>
+                            <small>vatigyan809@gmail.com</small>
+                        </span>
+                    </a>
+
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <span>
+                            <strong>Location</strong>
+                            <small>India</small>
+                        </span>
+                    </div>
+
+                    <a class="contact-item" href="https://github.com/vatigyan809-pixel"
+                       target="_blank" rel="noopener noreferrer">
+                        <span>💻</span>
+                        <span>
+                            <strong>GitHub</strong>
+                            <small>Visit GitHub ↗</small>
+                        </span>
+                    </a>
+                </div>
+
+                <form id="contactForm" class="contact-form reveal">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Your Name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Your Email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5"
+                              placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn">Prepare Email ↗</button>
+                    <p id="formStatus" class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">Raunak <span>.</span></a>
+
+        <p>© <span id="currentYear">2026</span> Raunak Verma. All Rights Reserved.</p>
+        <p>Made with ❤️ using HTML, CSS &amp; JavaScript</p>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top"
+            type="button" aria-label="Back to top">↑</button>
+
+</body>
+</html>
