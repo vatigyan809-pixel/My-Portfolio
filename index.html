@@ -1,4 +1,4 @@
- 
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Raunak Verma's personal developer portfolio">
     <title>Raunak Verma | Portfolio</title>
-
     <link rel="stylesheet" href="port.css">
     <script src="port.js" defer></script>
 </head>
@@ -27,15 +26,11 @@
 
             <div class="nav-actions">
                 <button id="themeToggle" class="theme-toggle"
-                        type="button" aria-label="Switch to light mode">
-                      ☀️
-                </button>
+                    type="button" aria-label="Switch to light mode">☀️</button>
 
                 <button class="menu-btn" id="menuBtn"
-                        type="button" aria-label="Open menu"
-                        aria-expanded="false">
-                    ☰
-                </button>
+                    type="button" aria-label="Open menu"
+                    aria-expanded="false">☰</button>
             </div>
         </nav>
     </header>
@@ -46,8 +41,7 @@
         <section id="home" class="hero">
             <div class="hero-content reveal">
                 <p class="hello">
-                    <span class="status-dot"></span>
-                    Hello, I'm
+                    <span class="status-dot"></span>Hello, I'm
                 </p>
 
                 <h1>Raunak <span>Verma</span></h1>
@@ -70,15 +64,17 @@
                 <div class="social-links">
                     <a href="https://github.com/vatigyan809-pixel"
                        target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
                     <a href="https://www.linkedin.com/in/raunak-verma-663329392"
                        target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
                 </div>
             </div>
 
             <div class="hero-card reveal">
-                       <div class="profile-logo">
-                        <img src="image.png" alt="My Photo">
-                                          </div>
+                <div class="profile-logo">
+                    <img src="image.png" alt="Raunak Verma profile photo">
+                </div>
+
                 <h3>CSIT Student</h3>
                 <p>Developer &amp; Programmer</p>
 
@@ -122,8 +118,13 @@
                 <div class="education-card reveal">
                     <div class="education-icon">🎓</div>
                     <p class="section-label">EDUCATION</p>
+
                     <h3>GL Bajaj Institute of Technology &amp; Management</h3>
-                    <p>B.Tech - Computer Science &amp; Information Technology</p>
+
+                    <p>
+                        B.Tech - Computer Science &amp; Information Technology
+                    </p>
+
                     <span class="education-badge">B.Tech Student</span>
                 </div>
             </div>
@@ -180,6 +181,7 @@
 
         <!-- Projects Section -->
         <section id="projects" class="section">
+
             <div class="section-heading reveal">
                 <p class="section-label">MY WORK</p>
                 <h2 class="section-title">My <span>Projects</span></h2>
@@ -188,23 +190,22 @@
                 </p>
             </div>
 
-            <div class="project-filters reveal">
+            <!-- Project Filters -->
+            <div class="project-filters reveal" aria-label="Filter projects">
                 <button class="filter-btn active" type="button"
-                        data-filter="all" aria-pressed="true">All</button>
+                    data-filter="all" aria-pressed="true">All</button>
 
                 <button class="filter-btn" type="button"
-                        data-filter="web" aria-pressed="false">
-                    Web Development
-                </button>
+                    data-filter="web" aria-pressed="false">Web Development</button>
 
                 <button class="filter-btn" type="button"
-                        data-filter="programming" aria-pressed="false">
-                    Programming
-                </button>
+                    data-filter="programming" aria-pressed="false">Programming</button>
             </div>
 
+            <!-- All Project Cards -->
             <div class="projects-container">
 
+                <!-- Project 1 -->
                 <article class="project-card reveal" data-category="web">
                     <div class="project-top">
                         <span class="project-emoji">🌐</span>
@@ -212,9 +213,10 @@
                     </div>
 
                     <h3>Personal Portfolio</h3>
+
                     <p>
-                        A responsive personal portfolio website created using
-                        HTML, CSS and JavaScript.
+                        A responsive personal portfolio website created
+                        using HTML, CSS and JavaScript.
                     </p>
 
                     <div class="tech">
@@ -225,10 +227,76 @@
 
                     <div class="project-links">
                         <a href="#home" class="project-link">Live Demo ↗</a>
-                        <a href="https://github.com/" target="_blank"
-                           rel="noopener noreferrer" class="project-link">
-                            GitHub ↗
+
+                        <a href="https://github.com/vatigyan809-pixel"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">GitHub ↗</a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card reveal" data-category="web">
+                    <div class="project-top">
+                        <span class="project-emoji">✅</span>
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <h3>To-Do List App</h3>
+
+                    <p>
+                        A task management application to add, complete
+                        and manage daily tasks.
+                    </p>
+
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://to-do-list-app-raunak13.vercel.app">
+                             Live Demo ↗
                         </a>
+
+                        <a href="https://github.com/vatigyan809-pixel"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">GitHub ↗</a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card reveal" data-category="programming">
+                    <div class="project-top">
+                        <span class="project-emoji">🧮</span>
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <h3>Calculator App</h3>
+
+                    <p>
+                        A calculator application for performing
+                        basic mathematical operations.
+                    </p>
+
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://calculator-raunak13.vercel.app">
+                            Live Demo ↗</a>
+
+                        <a href="https://github.com/vatigyan809-pixel"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">GitHub ↗</a>
+                    </div>
+                </article>
+
+            </div>
         </section>
 
         <!-- Contact Section -->
@@ -236,22 +304,23 @@
             <div class="section-heading reveal">
                 <p class="section-label">GET IN TOUCH</p>
                 <h2 class="section-title">Contact <span>Me</span></h2>
+
                 <p class="section-description">
                     Feel free to contact me about projects or internships.
                 </p>
             </div>
 
             <div class="contact-container">
+
                 <div class="contact-info reveal">
                     <h3>Let's Connect</h3>
 
                     <p>
-                        If you want to discuss a project, collaboration or
-                        internship opportunity, feel free to contact me.
+                        If you want to discuss a project, collaboration
+                        or internship opportunity, feel free to contact me.
                     </p>
 
-                    <a class="contact-item"
-                       href="mailto:vatigyan809@gmail.com">
+                    <a class="contact-item" href="mailto:vatigyan809@gmail.com">
                         <span>📧</span>
                         <span>
                             <strong>Email</strong>
@@ -267,43 +336,46 @@
                         </span>
                     </div>
 
-                    <a class="contact-item" href="https://github.com/vatigyan809-pixel"
+                    <a class="contact-item"
+                       href="https://github.com/vatigyan809-pixel"
                        target="_blank" rel="noopener noreferrer">
-                    
                         <span>💻</span>
                         <span>
                             <strong>GitHub</strong>
                             <small>Visit GitHub ↗</small>
                         </span>
+                    </a>
 
-                         <a class="contact-item"
+                    <a class="contact-item"
                        href="https://www.linkedin.com/in/raunak-verma-663329392"
                        target="_blank" rel="noopener noreferrer">
-                        <span>📧</span>
+                        <span>🔗</span>
                         <span>
-                            <strong>Linkedin</strong>
-                            <small>Visit Linkedin ↗</small>
+                            <strong>LinkedIn</strong>
+                            <small>Visit LinkedIn ↗</small>
                         </span>
-                    </a>
                     </a>
                 </div>
 
-                <form id="contactForm" class="contact-form reveal">
+                <form id="contactForm" class="contact-form">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="name"
-                           placeholder="Your Name" required>
+                        placeholder="Your Name" required>
 
                     <label for="email">Your Email</label>
                     <input type="email" id="email" name="email"
-                           placeholder="Your Email" required>
+                        placeholder="Your Email" required>
 
                     <label for="message">Your Message</label>
                     <textarea id="message" name="message" rows="5"
-                              placeholder="Your Message" required></textarea>
+                        placeholder="Your Message" required></textarea>
 
                     <button type="submit" class="btn">Prepare Email ↗</button>
-                    <p id="formStatus" class="form-status" aria-live="polite"></p>
+
+                    <p id="formStatus" class="form-status"
+                       aria-live="polite"></p>
                 </form>
+
             </div>
         </section>
 
@@ -313,13 +385,17 @@
     <footer class="footer">
         <a href="#home" class="logo">Raunak <span>.</span></a>
 
-        <p>© <span id="currentYear">2026</span> Raunak Verma. All Rights Reserved.</p>
+        <p>
+            © <span id="currentYear">2026</span>
+            Raunak Verma. All Rights Reserved.
+        </p>
+
         <p>Made with ❤️ using HTML, CSS &amp; JavaScript</p>
     </footer>
 
-    <!-- Back to top -->
+    <!-- Back to Top Button -->
     <button id="backToTop" class="back-to-top"
-            type="button" aria-label="Back to top">↑</button>
+        type="button" aria-label="Back to top">↑</button>
 
 </body>
 </html>
